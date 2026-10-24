@@ -1,0 +1,17 @@
+type Cliente {
+  id: ID!
+  nombre: String!
+  sector: String!
+  facturas: [Factura!]!
+}
+
+type Factura {
+  id: ID!
+  clienteId: String!
+  monto: Float!
+  estado: String
+}
+
+type Query {
+  clientes: [Cliente!]!
+}

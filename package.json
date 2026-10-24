@@ -1,0 +1,16 @@
+{
+  "name": "practica-graphql-dataloader",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:optimized": "node server.js",
+    "start:naive": "node server.naive.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "dataloader": "^2.2.3",
+    "graphql": "^16.14.2"
+  }
+}
